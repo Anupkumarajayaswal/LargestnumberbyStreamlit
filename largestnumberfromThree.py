@@ -4,8 +4,8 @@ def find_largest_number(num1, num2, num3):
     return max(num1, num2, num3)
 
 def main():
-    st.latex("Find the Largest Number")
-    st.latex(''' This\ app\ help\ you\ to\ find\ largest \ Number ''')
+    st.latex("Find \the \Largest \ Number \Among \ Given \Three\ Number ")
+    st.write(''' This app help you to find largest Number ftom 3 Number  ''')
     
     num1 = st.number_input("Enter the first number:", value=0)
     num2 = st.number_input("Enter the second number:", value=0)
